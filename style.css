@@ -114,7 +114,7 @@ transition: transform 1s cubic-bezier(.645, .045, .355, 1);
 }
 
 .profile-page img {
-    max-width: 150px;
+    max-width: 180px;
     border-radius: 70%;
     border: .25rem solid var(--main-color);
     margin-bottom: 0.8rem;
@@ -588,19 +588,16 @@ cursor: pointer;
 .wrapper{display: block;}
 }
 @media only screen and (max-width: 767px) {
-    body {
-        overflow: auto;
-    }
 .wrapper{display: none;}
 .MobileWrapper{
     display: block;
 
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
     background: var(--cover-color);
     box-shadow: var(--box-shadow);
     border-radius: 0.6rem;
-
+    overflow: auto;
 }
 
 #magazine{
@@ -621,7 +618,7 @@ cursor: pointer;
     font-size: 14px; /* Adjust the font size as needed */
 }
 
-o
+
 
 
 #magazine .turn-page{
@@ -631,12 +628,8 @@ o
 
 .MobilePageContent{
     background: var(--pages-color);
-    padding: 2rem;
+    padding: 1rem;
     font-size: small;
 }
 
-.back-profile{
-    position: relative;
-    float: right;
-}
 }
