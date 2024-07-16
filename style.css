@@ -635,10 +635,6 @@ o
     font-size: small;
 }
 
-.skills-box, .projects-container{
-    max-height: initial;
-    overflow-y: visible;
-}
 .back-profile{
     position: relative;
     float: right;
